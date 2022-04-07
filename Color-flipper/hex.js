@@ -12,7 +12,6 @@ btn.addEventListener('click',()=>{
 
        document.body.style.backgroundColor=colorChange;
        color.textContent=colorChange
-
    }
    console.log(colorChange);
 
