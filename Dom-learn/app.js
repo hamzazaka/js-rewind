@@ -60,9 +60,10 @@ const error=document.querySelector('.error');
 
 const button =document.querySelector('button')
 
-button.addEventListener('click',()=>{
-    error.style.border='1px dashed green';
-    p.style.color='green'
-    title.style.color='green'
-})
-
+// button.addEventListener('click',()=>{
+//     error.style.border='1px dashed green';
+//     p.style.color='green'
+//     title.style.color='green'
+// })
+title.classList.add('hello');
+title.classList.remove('title')
