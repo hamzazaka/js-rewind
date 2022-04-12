@@ -34,19 +34,35 @@
 //     content.innerHTML+=`<p>${p}</p>`
 // })
 
-const link =document.querySelector('a');
+// const link =document.querySelector('a');
 
-console.log(link.setAttribute('href','https://www.helloworld.com'));
-link.innerText='this is hello world';
+// console.log(link.setAttribute('href','https://www.helloworld.com'));
+// link.innerText='this is hello world';
 
-const msg=document.querySelector('div');
+// const msg=document.querySelector('div');
 
-console.log(msg.getAttribute('class'));
+// console.log(msg.getAttribute('class'));
 
-msg.setAttribute('class','success');
-msg.setAttribute('style','color:greenf')
+// msg.setAttribute('class','success');
+// msg.setAttribute('style','color:greenf')
 
-const title=document.querySelector('.dom')
-title.style.color='orange';
-title.style.fontSize='60px';
-title.style.marginTop='80px';
+// const title=document.querySelector('.dom')
+// title.style.color='orange';
+// title.style.fontSize='60px';
+// title.style.marginTop='80px';
+
+const title=document.querySelector('.title');
+
+const p=document.querySelector('.error p')
+console.log(p);
+
+const error=document.querySelector('.error');
+
+const button =document.querySelector('button')
+
+button.addEventListener('click',()=>{
+    error.style.border='1px dashed green';
+    p.style.color='green'
+    title.style.color='green'
+})
+
