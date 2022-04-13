@@ -22,11 +22,13 @@ function countdown(){
     console.log(days,hours,minutes,seconds);
 
    day.innerText=days;
-   hour.innerText=hours;
-   min.innerText=minutes;
-   second.innerText=seconds;
+   hour.innerText=formatTime(hours);
+   min.innerText=formatTime(minutes);
+   second.innerText=formatTime(seconds);
 
-
+  function formatTime(time){
+      return time<10 ?`0${time}` :time
+  }
 
 
 
