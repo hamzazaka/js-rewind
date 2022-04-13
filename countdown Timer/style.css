@@ -1,3 +1,18 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+  background-image: url('https://images.unsplash.com/photo-1642091465532-c6bbbcfa0837?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1540&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+}
+
+.newyear{
+    text-align: center;
+    font-size: 34px;
+    padding-top: 80px;
+}
