@@ -1,0 +1,47 @@
+body {
+  background-color: #7bdaf3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.notes {
+  background-color: #fff;
+  height: 300px;
+  width: 320px;
+}
+textarea {
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.notes .main{
+    height: 100%;
+    width: 100%;
+}
+
+.notes .hidden{
+    display: none;
+}
+
+.tools {
+    background-color: #9ec862;
+    display: flex;
+    justify-content:flex-end;
+    padding: 0.5rem;
+}
+.tools button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+textarea{
+    outline: none;
+    width: 100%;
+    height: 100%;
+
+}
